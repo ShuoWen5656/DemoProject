@@ -36,6 +36,11 @@ public class LoggerService {
         }
     }
 
+    public static LoggerService getLoggerService() {
+        return LOGGER_SERVICE;
+    }
+
+
     public void info(String msg) {
         logger.info(msg);
     }
